@@ -1,0 +1,17 @@
+# Токен вашего Telegram бота
+# Получите его у @BotFather в Telegram
+BOT_TOKEN=your_bot_token_here
+
+# Блокчейн сеть для мониторинга
+# Доступные варианты:
+# - ethereum_mainnet
+# - ethereum_goerli
+# - ethereum_sepolia
+# - polygon_mainnet
+# - polygon_mumbai
+# - arbitrum_mainnet
+# - optimism_mainnet
+# - binance_smart_chain
+# - avalanche_mainnet
+# - fantom_mainnet
+BLOCKCHAIN_NETWORK=ethereum_mainnet
