@@ -3,6 +3,7 @@
 """
 import asyncio
 import logging
+import traceback
 from bot_setup import TelegramBot
 
 # Настройка логирования
@@ -26,6 +27,7 @@ async def main():
         logger.info("Бот остановлен пользователем")
     except Exception as e:
         logger.error(f"Критическая ошибка: {e}")
+        logger.error(f"Traceback: {traceback.format_exc()}")
     finally:
         if bot:
             await bot.stop()
